@@ -1,6 +1,6 @@
 ## ODD or EVEN reporter
 
-This excercise is about loops and conditions.
+This exercise is about loops and conditions.
 
 For the looping part, try 3 different types of loop!
 
