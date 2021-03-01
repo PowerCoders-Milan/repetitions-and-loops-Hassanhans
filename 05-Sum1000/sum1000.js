@@ -6,3 +6,4 @@ for (var x = 0; x < 1000; x++)
        sum += x;
     }
 }
+console.log(sum);
