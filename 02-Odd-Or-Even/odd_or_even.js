@@ -5,22 +5,34 @@
   // check if the current is even or odd
 
   // report the result to the screen
-for (x= 0; x <= 20;  x++){
-   if ( x % 2 === 0){
-     console.log(`the number ${x} is even`)
-   }
-   else {
-    console.log(`the number ${x} is odd`)
-   }
-   while (x % 2===0) {
-    console.log ("The number is " + x);
-    x++;
-  }
-}
-do {
-  console.log ("The number is " + x);
-  x++;
-}
-while (x % 2===0);{
+  var x = 0 ;
+  for (x= 0; x<= 20; x++){
+   if( x % 2 === 0){
+  console.log(`the number ${x} is even` + x)
+   } 
+   else{
+     console.log(`the number ${x} is odd` + x)
+   }}
   
-}
+ do{
+   if( x % 2 === 0){
+     console.log(`the number ${x} is even1` + x)
+      } 
+      else{
+        console.log(`the number ${x} is odd1` + x)
+      }
+     x++;
+ }while(x <= 20);
+ 
+ while( x <= 20){
+   
+   if( x % 2 === 0){
+     console.log(`the number ${x} is even2` + x)
+      } 
+      else{
+        console.log(`the number ${x} is odd1` + x)
+      }
+     
+   x++; 
+ }
+ 
